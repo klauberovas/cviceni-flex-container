@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
@@ -36,3 +37,24 @@ img {
   height: 1.5rem;
   width: 1.5rem;
 }
+
+/*----------ŘEŠENÍ-------*/
+.layout {
+  display: flex;
+}
+
+/*---menu---*/
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*---obsah---*/
+.content {
+  display: flex;
+}
+
+/* .feature {
+  flex-basis: 33.333%;
+} */
